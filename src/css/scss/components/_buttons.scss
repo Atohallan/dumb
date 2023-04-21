@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * 1) Button or link that has functionality to it
+ */
+.c-btn {
+    background: #333;
+    color: #fff;
+	border: 0;
+}
+
+/**
+ * Secondary button
+ * 1) Different button style 
+ */
+.c-btn--secondary {
+    background: #eee;
+    color: #222;
+    border: 1px solid #eee;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "dumb-react-sass",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "scss": "node-sass --output-style compressed -o src/css src/css",
+    "watch:css": "onchange 'src/css/**/*.scss' -- npm run scss",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-knobs": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.10.0",
+    "onchange": "^5.1.0",
+    "sass-loader": "^7.1.0",
+    "storybook-addon-smart-knobs": "^3.3.1",
+    "style-loader": "^0.21.0"
+  }
+}
